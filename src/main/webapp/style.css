@@ -1,0 +1,110 @@
+/* Resetowanie domyślnych styli przeglądarki */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body i ogólne style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Nagłówki */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Wyszukiwarka */
+.wyszukiwarka {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.wyszukiwarka label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.wyszukiwarka input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.wyszukiwarka button {
+    padding: 5px 10px;
+    background-color: #4d94ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.wyszukiwarka button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Produkty */
+.product {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.photo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-name a {
+    font-weight: bold;
+    color: #4d94ff;
+    text-decoration: none;
+}
+
+.product-price {
+    color: #4d94ff;
+}
+
+.product-description {
+    color: #555;
+}
+
+/* Stopka */
+.footer {
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+    color: #808080;
+}
+
+/* Błąd */
+.error-message {
+    color: #ff4d4d;
+}
